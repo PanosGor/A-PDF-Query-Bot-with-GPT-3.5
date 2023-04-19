@@ -12,7 +12,7 @@ query = st.text_input('Input your query here :')
 button = st.button("Run Query!")
 
 if button:
-    OpenAI_API_Key = "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" 
+    OpenAI_API_Key = "" 
     gpt = gpt_II.GPT_PDF(pdf_path,OpenAI_API_Key)
     result = gpt.query_corp(query)
     st.write(f'### Results: {result}')

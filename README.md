@@ -1,6 +1,6 @@
 # A-PDF-Query-Bot-with-GPT-3.5
 This a PDF query application with GPT 3.5
-This application is made in Streamlit. The appa is taking as an input a path to a PDF file and a query, 
+This application is made in Streamlit. The application is taking as an input a path to a PDF file and a query, 
 then it utilizes ChatGPT (GPT 3.5) to answer the query based on the PDF file.
 
 # Example below
